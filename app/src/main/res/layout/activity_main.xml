@@ -8,6 +8,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="happy"
+        android:text="樂透"
+        android:textSize="36sp" />
+
+
     <TextView
         android:id="@+id/txv"
         android:layout_width="match_parent"
